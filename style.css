@@ -100,13 +100,6 @@ nav,
 section {
   display: block;
 }
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-  line-height: 1;
-}
 ol,
 ul {
   list-style: none;
@@ -127,16 +120,15 @@ table {
   border-spacing: 0;
 }
 
-/* Suwit Jawa 2.0 */
+/* Suwit Jawa*/
 
 body {
   background-image: url(./assets/pexels-wahyu-widiatmoko-8720186.jpg);
   font-family: arial;
-  overflow: hidden;
+  height: 100vh;
 }
 
 .body {
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,8 +138,6 @@ h1 {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  margin: 10px 0;
-  margin-top: 30px;
   text-transform: uppercase;
   color: #e7e7e7;
   text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333,
@@ -157,7 +147,7 @@ h1 {
     4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa,
     6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa,
     7.7781745931px 7.7781745931px 0 #aaaaaa;
-  transform: translateY(100px);
+  transform: translateY(10px);
 }
 
 .container {
